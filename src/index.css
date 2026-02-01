@@ -1,0 +1,90 @@
+@import "tailwindcss";
+
+@keyframes floatRotate {
+  0%, 100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  25% {
+    transform: translateY(-6px) rotate(-5deg);
+  }
+  50% {
+    transform: translateY(-10px) rotate(0deg);
+  }
+  75% {
+    transform: translateY(-6px) rotate(5deg);
+  }
+}
+
+.animate-float-rotate {
+  animation: floatRotate 4s ease-in-out infinite;
+}
+
+/* 👇 TAMBAHIN INI */
+.group:hover .animate-float-rotate {
+  animation-duration: 1.5s;
+  transform: scale(1.15);
+}
+
+@keyframes sway {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-8deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(8deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.animate-sway {
+  animation: sway 3s ease-in-out infinite;
+}
+
+/* ===== FLOAT IMAGE VERTICAL ===== */
+@keyframes floatUpLong {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-40%);
+  }
+}
+
+@keyframes floatDownLong {
+  0% {
+    transform: translateY(-40%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.animate-float-up {
+  animation: floatUpLong 18s linear infinite;
+}
+
+.animate-float-down {
+  animation: floatDownLong 22s linear infinite;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-up {
+  animation: fadeUp 0.8s ease-out forwards;
+}
