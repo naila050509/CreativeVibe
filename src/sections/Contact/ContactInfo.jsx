@@ -81,7 +81,8 @@ const ContactInfo = () => {
             <div className="relative z-10">
               <h3 className="text-xl font-bold mb-3">Our Newsletters</h3>
               <p className="text-white/90 text-sm mb-6">
-                Dapetin update beasiswa terbaru, tips pendidikan, dan insight jurusan langsung ke email kamu.
+                Dapetin update beasiswa terbaru, tips pendidikan, dan insight
+                jurusan langsung ke email kamu.
               </p>
 
               <input
@@ -100,18 +101,16 @@ const ContactInfo = () => {
         {/* CONTACT INFO CARDS */}
         <div className="grid md:grid-cols-3 gap-6 mb-16">
           {/* Phone */}
-          <div
-            className="bg-indigo-600 text-white p-6 rounded-2xl transition-all duration-300 hover:-translate-y-2 hover:shadow-xl"
-          >
+          <div className="bg-indigo-600 text-white p-6 rounded-2xl transition-all duration-300 hover:-translate-y-2 hover:shadow-xl">
             <Phone className="mb-3" />
             <p className="font-semibold"> 021-73455777 </p>
-            <p className="text-sm text-white/80">Hubungi kami untuk info & bantuan lebih lanjut</p>
+            <p className="text-sm text-white/80">
+              Hubungi kami untuk info & bantuan lebih lanjut
+            </p>
           </div>
 
           {/* Email */}
-          <div
-            className="bg-white p-6 rounded-2xl shadow-sm transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:bg-indigo-600 hover:text-white group"
-          >
+          <div className="bg-white p-6 rounded-2xl shadow-sm transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:bg-indigo-600 hover:text-white group">
             <Mail className="mb-3 text-indigo-600 group-hover:text-white" />
             <p className="font-semibold">smk@budiluhur.sch.id</p>
             <p className="text-sm text-slate-600 group-hover:text-white/80">
@@ -120,23 +119,24 @@ const ContactInfo = () => {
           </div>
 
           {/* Location */}
-          <div
-            className="bg-white p-6 rounded-2xl shadow-sm transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:bg-indigo-600 hover:text-white group"
-          >
+          <div className="bg-white p-6 rounded-2xl shadow-sm transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:bg-indigo-600 hover:text-white group">
             <MapPin className="mb-3 text-indigo-600 group-hover:text-white" />
             <p className="font-semibold">SMK Budi Luhur</p>
             <p className="text-sm text-slate-600 group-hover:text-white/80">
-              Jalan Raden Saleh No. 999, Karang Tengah, Ciledug, Kota Tangerang, Banten 15157, Indonesia.
+              Jalan Raden Saleh No. 999, Karang Tengah, Ciledug, Kota Tangerang,
+              Banten 15157, Indonesia.
             </p>
           </div>
         </div>
 
         {/* MAP */}
-        <div className="rounded-3xl overflow-hidden shadow-md">
+        <div className="relative w-full h-[320px] md:h-[400px] rounded-3xl shadow-md">
           <iframe
             title="map"
-            className="w-full h-80"
+            className="absolute inset-0 w-full h-full rounded-3xl border-0"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3429.2281420130926!2d106.70646040000001!3d-6.219354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f90063dc36f1%3A0xaecf8826be91cea9!2sSMK%20Budi%20Luhur%20Kota%20Tangerang!5e1!3m2!1sid!2sid!4v1769939148817!5m2!1sid!2sid"
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
           />
         </div>
       </div>
