@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
-  base: import.meta.env.VITE_BASE_PATH || '/CreativeVibe/',
+  base: process.env.VITE_BASE_PATH || '/CreativeVibe/',
   plugins: [
     react(),
     tailwindcss(),
