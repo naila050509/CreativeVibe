@@ -1,9 +1,9 @@
 import React from "react";
 import BeasiswaImg1 from "../../assets/images/beasiswa-1.jpg";
 import BeasiswaImg2 from "../../assets/images/beasiswa-2.jpg";
-import BeasiswaImg3 from "../../assets/images/beasiswa-3.jpg";
-import BeasiswaImg4 from "../../assets/images/beasiswa-4.jpg";
-import BeasiswaImg5 from "../../assets/images/beasiswa-5.jpg";
+import BeasiswaImg3 from "../../assets/images/Beasiswa-3.jpg";
+import BeasiswaImg4 from "../../assets/images/Beasiswa-4.jpg";
+import BeasiswaImg5 from "../../assets/images/Beasiswa-5.jpg";
 import BeasiswaImg6 from "../../assets/images/Kegiatan-1.jpg";
 import BeasiswaImg7 from "../../assets/images/Kegiatan-2.jpeg";
 
